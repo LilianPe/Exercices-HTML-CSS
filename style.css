@@ -1,0 +1,921 @@
+body{
+    padding-top: 100px;
+    padding-left: 550px;
+}
+
+
+.sub{
+    background-color: brown;
+    color: white;
+    width: 150px;
+    height: 60px;
+    border: none;
+    border-radius: 7px;
+    cursor:pointer;
+    font-weight:bold ;
+    font-size: 15px;
+    transition: background-color 0.2s, color 0.2s, border 0.2s;
+    margin: 15px;
+}
+
+
+.sub:hover{
+    background-color: rgb(133, 25, 25);
+}
+
+.sub:active{
+    background-color: rgb(221, 213, 213);
+    color: black;
+    border: solid rgb(71, 70, 70)
+}
+
+.tweet{
+    color: white;
+    background-color: rgb(130, 130, 224);
+    width: 110px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: large;
+    transition: box-shadow 0.2s, opacity 0.2s;
+    cursor: pointer;
+    margin: 15px;
+    vertical-align: middle;
+}
+
+.tweet:hover{
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.479);
+    opacity: 80%;
+}
+
+.tweet:active{
+    opacity: 60%;
+}
+
+.stretch{
+    margin: 15px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border : solid 1px;
+    border-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.stretch:hover{
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+.shadow{
+    margin-top: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border : solid 1px;
+    border-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+}
+
+.shadow:active{
+    box-shadow: 10px 0px 15px rgba(0, 0, 0, 0.247);
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.number{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border : solid 1px;
+    border-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    transition: 0.2s;
+}
+
+.number:hover{
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.title{
+    font-family: "YouTube Sans","Roboto",sans-serif;
+    font-weight: 600;
+    color: white;
+    box-sizing: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    white-space: normal;
+    margin-left: 30%;
+    margin-right: 30%;
+    display: block;
+
+}
+
+.us{
+    font-family: Arial;
+    margin-bottom: 0px;
+}
+
+.num{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.ud{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.n{
+    font-family: Arial;
+    margin-top: 0px;
+    color: rgb(28, 136, 28);
+    font-size: 20px;
+}
+
+.profile-picture{
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit:cover;
+    object-position: center;
+}
+
+.input{
+    vertical-align: middle;
+    font-size: 20px;
+    width: 250px;
+    height: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.tweeter-input{
+    display: inline-block;
+    margin-left: 30%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.247);
+}
+
+.question{
+    font-family: Arial;
+    padding-top: 0px;
+}
+
+.device{
+    margin-left: 40%;
+    display: inline-block;
+    border: solid 1px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 70px;
+    margin-top: 30px;
+}
+
+p{
+    font-family: Arial;
+}
+
+.advice-youtube-music{
+    background-color: rgb(54, 35, 35);
+    display: inline-block;
+    padding: 20px;
+    padding-top: 0;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+.ad-title{
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.para{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+.friend-adding{
+    max-width: 500px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.151);
+
+}
+
+.profile-pic{
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.name{
+    font-size :100%;
+    margin: 5px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.number-friends{
+    color: rgb(83, 83, 83);
+    margin: 10px;
+    font-size: 100%;
+}
+
+.add-buttons{
+    background-color: rgb(121, 121, 224);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    
+}
+
+.add-buttons:hover{
+    background-color: rgb(74, 74, 182);
+
+}
+
+.add-buttons:active{
+    opacity: 80%;
+}
+
+.profile{
+    width: 1000px;
+    height: 200px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.144);
+    margin: 10px;
+}
+
+.profile-pic-tweeter{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: middle;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.pp{
+    width: 200px;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.attribut{
+    vertical-align: top;
+    display: inline-block;
+    width: 550px;
+}
+
+.username{
+    vertical-align: top;
+    height: 100px;
+}
+
+.pseudo{
+    vertical-align: top;
+    height: 50px;
+}
+
+.statut{
+    vertical-align: top;
+    height: 50px;
+}
+
+.username-txt{
+    margin-top: 0;
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.pseudo-txt{
+    margin-top: 0;
+    font-size: 20px;
+    color: rgb(133, 128, 128);
+    font-weight:600;
+}
+
+.statut-txt{
+    margin-top: 0;
+    color: rgb(126, 126, 126);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.folow{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.folow-button{
+    color: white;
+    background-color: rgb(122, 122, 240);
+    border: none;
+    width: 150px;
+    height: 75px;
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-top: 62px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.folow-button:hover{
+    background-color: rgb(74, 74, 182);
+
+}
+
+.folow-button:active{
+    opacity: 80%;
+}
+
+.ytb-vignette{
+
+    height: 198px;
+    border: none;
+    background-color: black;
+    padding: 10px;
+    width: 1200px;
+}
+
+.miniature{
+    display: inline-block;
+    width: 350px;
+}
+
+.minia-pic{
+    width: 100%;
+    display: inline-block;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.minia-pic:hover{
+    opacity: 90%;
+}
+
+.info{
+    margin: 20px;
+    margin-top: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.title-yt{
+
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 15px;
+    font-family: "Roboto","Arial",sans-serif;
+    vertical-align: top;
+    color: white;
+    margin-bottom: 40px;
+    max-width: 750px;;
+}
+
+.title-yt-txt{
+    margin: 0;
+    cursor: pointer;
+}
+
+.author{
+    display: inline-block;
+}
+
+.author-txt{
+    color: rgb(199, 187, 187);
+    margin: 0;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.views{
+    color: rgb(199, 187, 187);
+    margin: 0;
+}
+
+.views-txt{
+    margin: 0;
+    margin-top: 5px;
+    font-size: 23px;
+}
+
+.middot{
+    font-weight: 600;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 25px;
+}
+
+@media (max-width: 2500px) {
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 2000px) {
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 1500px) {
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 1000px) {
+    .grid{
+        grid-template-columns:1fr;
+    }
+}
+
+
+/* Menu avec Notifications */
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 330px;
+    border: solid 2px;
+    border-color: gray;
+    justify-content: space-between;
+    margin: 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.container-element{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-txt{
+    flex: 1;
+    font-size: 30px;
+    padding-left: 20px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.notif{
+    background-color: rgb(111, 111, 209);
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 90px;
+    font-size: 20px;
+    margin: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.container-txt:hover{
+    background-color: rgb(214, 207, 207);
+}
+
+/* Header recherche */
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(140, 72, 180);
+    height: 100px;
+    margin: 0;
+    margin-bottom: 1200px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.O{
+    margin: 0;
+}
+
+.left{
+    width: 250px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.middle{
+    flex: 1;
+    text-align: center;
+}
+
+.right{
+    border: none;
+
+}
+
+.search{
+    border-radius: 600px;
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    font-weight: 600;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 8px;
+
+}
+
+.button-download{
+    border: solid 2px;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+
+    font-weight: 600;
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    transition: 0.2s;
+    margin-left:150px ;
+    margin-right: 20px;
+}
+
+.button-download:hover{
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+
+
+/* Messages Box */
+
+.message-box{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.233);
+    margin: 30px;
+}
+
+.box-title{
+    color: rgb(107, 100, 100);
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.messages{
+    display: flex;
+    padding: 15px;
+    padding-bottom: 35px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.profile-p{
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.profile-pa{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.profile-pa:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.377);
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    font-size: 30px;    
+    flex: 1;
+}
+
+.messages:hover{
+    background-color: rgb(216, 196, 196);
+}
+
+.message-houres{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(124, 121, 121);
+    font-weight: 600;
+    margin-left: -60px;
+}
+
+.message-preview{
+    margin: 0;
+    color: rgb(90, 82, 82);
+    font-size: 27px;
+}
+
+
+/* Tweet Box */
+
+.tweet-box{
+    display: flex;
+    margin: 30px;
+}
+
+.tweeter-tweet{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.tweeter-profile-names{
+    margin-top: 13px;
+    display: flex;
+}
+
+.tweeter-username{
+    margin: 0;
+    font-size:23px ;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.tweeter-name{
+    margin:0;
+    font-size: 23px;
+    color: rgb(99, 96, 96);
+    font-weight: 600;
+}
+
+.tweet-content{
+    margin: 0;
+    font-size: 23px;
+    
+}
+
+.tweeter-extra-content{
+    display: flex;
+    border-radius: 20px;
+
+    width: 450px;
+    height: 150px;
+    border: solid;
+    border-color: rgb(221, 210, 210);
+    text-overflow:ellipsis;
+    overflow: hidden;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.tweeter-picture{
+    background-color: rgb(221, 210, 210);
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    flex-shrink: 0;
+}
+
+.tweeter-extra-content-infos{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tweeter-extra-content:hover{
+    background-color: rgb(247, 234, 234);
+    
+}
+
+.tweeter-extra-content-link{
+    color: rgb(71, 67, 67);
+}
+
+.tweeter-extra-content-description{
+    margin: 20px;
+    margin-top: 0;
+    margin-left: 0;
+
+}
+
+.invisible-link{
+    text-decoration: none;
+}
+
+/* Sidebar Discord*/
+
+.sidebar{
+    position: fixed;
+    bottom: 0;
+    top: 100px;
+    left: 0;
+    width: 150px;
+    background-color: rgb(39, 38, 38);
+}
+
+.sidebar-2{
+    background-color: rgb(71, 68, 68);
+    position: fixed;
+    top: 100px;
+    bottom: 0;
+    left: 150px;
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pp-discord{
+    text-align: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.pps-discord{
+    margin-top: 40px;
+}
+
+.channel-name{
+    font-size: 30px;
+    color: white;
+}
+
+.categ{
+    color: rgb(209, 209, 209);
+    font-size: 30px;
+    margin: 0;
+    display:flex;
+}
+
+.channel{
+    margin-left: 20px;
+}
+
+.channel-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.plus{
+    color: white;
+    font-size: 60px;
+    margin-right: 30px;
+    cursor: pointer;
+    position: relative;
+}
+
+.plus .tooltip{
+    position: absolute;
+    background-color: rgba(173, 165, 165, 0.925);
+    top: 0;
+    right: -460px;
+    opacity: 0;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    transition: opacity 0.15s;
+    font-weight: 500;
+    pointer-events:none;
+}
+
+.plus:hover .tooltip{
+    opacity: 1;
+    z-index: 50;
+}
+
+.categ:hover{
+    background-color: rgb(56, 53, 53);
+    cursor: pointer;
+}
+
+.Oo{
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+/* Shop Article*/
+
+.shop-article{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    margin: 70px;
+    margin-left: 280px;
+    display: block;
+    cursor: pointer;
+    margin-bottom: 1000px;
+}
+
+.article{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: rgb(233, 209, 209);
+}
+
+.article-reduc{
+    position:absolute;
+    top: 30px;
+    right: 0px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    cursor: default;
+}
+
+.add-cart{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 140px;
+    background-color: rgba(245, 233, 233, 0.678);
+    cursor: default;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-cart-button{
+    width: 140px;
+    height: 60px;
+    border: solid 1px;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.363); 
+    cursor: pointer;
+    background-color: white;
+    font-size: 20px;
+    font-weight:normal;
+    font-weight: 500;
+    transition:  0.3s;
+}
+
+.add-cart-button:hover{
+    color: white;
+    background-color: black;
+
+}
